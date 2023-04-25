@@ -1,0 +1,7 @@
+---
+- name: Main Message
+  hosts: localhost
+  vars_files:
+    - vars.yml
+  tasks:
+  - include_tasks: print.yml
