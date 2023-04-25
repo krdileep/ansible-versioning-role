@@ -1,0 +1,4 @@
+---
+- include_role:
+    name: version
+    tasks_from: print.yml
